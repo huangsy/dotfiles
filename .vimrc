@@ -149,6 +149,10 @@ endif
 " NERDTree keymap
 map <C-n> :NERDTreeToggle<CR>
 
+" Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
+map <space> /
+map <c-space> ?
+
 " airline control
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
